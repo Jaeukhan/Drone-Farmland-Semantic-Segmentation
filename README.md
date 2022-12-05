@@ -1,4 +1,4 @@
-# Baseline for Projects of Computer Vision with Deep Learning(CSI6072, 2021 Fall)
+#  Projects of Computer Vision with Deep Learning
 
 ## Table of Contents
 
