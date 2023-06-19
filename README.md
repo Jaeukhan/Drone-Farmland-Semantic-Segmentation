@@ -3,7 +3,6 @@
 ## Table of Contents
 
 - Summary
-    - Course Information
     - The purpose of this repository
     - Environment Setup
 - Projects
@@ -21,12 +20,6 @@
         - Submission
 
 ## Summary
-
-### Course Information
-
-- Professor: [Seon Joo Kim](https://sites.google.com/site/seonjookim/)
-- Computer Vision with Deep Learning, CSI6072, (2021 Fall)
-- [Syllabus](ysweb.yonsei.ac.kr:8888/curri120601/curri_pop2.jsp?&hakno=CSI6702&bb=01&sbb=00&domain=A&startyy=2021&hakgi=2&ohak=10421)
 
 ### The purpose of this repository
 
@@ -77,10 +70,6 @@ pip install -r requirements.txt
 #### Dataset
 
 You need to download and preprocess data from [aihub](https://aihub.or.kr/aidata/30725) for security reasons.
-
-- !!!!!You are not allowed to train the model with 'Validation' dataset!!!!!
-- !!!Being approved and downloading the data could take some time, so start right now!!!
-- The entire 'Training' dataset is 3TB. You need to download a subset of the dataset if disk size is not enough.
 
 The desired structure of the dataset is as follows.
 
@@ -149,14 +138,6 @@ PYTHONPATH=$PYTHONPATH:. python tools/project2_train.py --cfg experiment/000_une
 ```
 PYTHONPATH=$PYTHONPATH:. python tools/project2_inference.py --cfg experiment/000_unet_baseline.yaml
 ```
-
-#### Submission
-
-1. Check `Training` to train model
-2. Check `Inference` to inference test data and generate csv at `{OUTPUT_DIR}/submission.csv`
-3. Edit the name of CSV file(e.g. `2019324058.csv`)
-4. Upload CSV file to [Kaggle](https://www.kaggle.com/c/yonsei-csi6702-2021fall-project2/overview)
-
 ### Project 1
 
 #### Information
@@ -195,9 +176,3 @@ PYTHONPATH=$PYTHONPATH:. python tools/project1_train.py
 PYTHONPATH=$PYTHONPATH:. python tools/project1_inference.py
 ```
 
-#### Submission
-
-1. Train your model with your code
-2. Edit and Run `inference_baseline.py` to generate CSV file(`submission.csv`)
-3. Edit the name of CSV file(e.g. `2019324058.csv`)
-4. Upload CSV file to [Kaggle](https://www.kaggle.com/c/yonsei-csi6702-2021fall-project1/overview)
